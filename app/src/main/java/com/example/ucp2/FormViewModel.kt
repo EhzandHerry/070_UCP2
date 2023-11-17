@@ -14,9 +14,8 @@ class FormViewModel : ViewModel(){
         _stateUI.update { stateSaatIni ->
             stateSaatIni.copy(
                 nama = listData[0],
-                nim = listData[1],
-                konsentrasi = listData[2],
-                judul = listData[3]
+                alamat = listData[1],
+                notelp = listData[2]
             )
         }
     }
